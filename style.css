@@ -86,7 +86,8 @@ h1 span{
     color:#000;
 }
 .header_logo{
-    width:280px;
+    width:80%;
+    max-width:280px;
 }
 h2 {
     margin: 50px auto 50px auto;
