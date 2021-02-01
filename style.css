@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, button{
 
 h1 {
     font-size: 68px;
-    font-family: 'Molle', cursive;
+    font-family: 'Molle';
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
