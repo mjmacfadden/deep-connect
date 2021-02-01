@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -71,7 +73,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, button{
 
 h1 {
     font-size: 68px;
-    font-family: 'Molle';
+    font-family: 'Molle', cursive;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
