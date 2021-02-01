@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Connect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta property="og:image" content="img/homescreen_logo.png" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Apple and Andriod home screen icons -->
+    <link href="img/homescreen_logo.png" rel="apple-touch-icon" /> 
+    <link href="img/homescreen_logo.png" rel="icon" />
+    
+    <!-- Apple hide Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Apple changing the status bar appearance -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Android add to the home screen -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Apple Mobile Web App Title -->
+    <meta name="apple-mobile-web-app-title" content="Connect">
+
+</head>
+
+<body onload="Lets_Play()">
+    <div id="instructions" class="directions hide">
+        <div class="wrapper">
+            <i class="fas fa-times-circle instructions" onclick="no_instruct();"></i>
+            <h4>Directions</h4>
+            <p class="text">This app is designed, from a systems theory standpoint, to bring couples closer together who, for whatever reason aren't naturally connecting.</p>
+            <p class="text">Set a repeating calendar reminder, twice a week, to engage in a meaningful way with your partner. Use the questions present as starting points for more deeply connected conversation.</p>
+            <p class="text">Questions have been sourced from a variety of online resources linked below.</p>
+            <p class="text heavy">References:</p>
+            <p class="text"><a href="https://www.lemonade.com/blog/creating-meaningful-conversations/" target="_bank">https://www.lemonade.com/blog/creating-meaningful-conversations/</a></p>
+            <p class="text"><a href="https://www.psychologytoday.com/us/blog/open-gently/201310/36-questions-bring-you-closer-together" target="_bank">https://www.psychologytoday.com/us/blog/open-gently/201310/36-questions-bring-you-closer-together</a></p>
+            <p class="text"><a href="https://homefaithfamily.com/55-questions-for-couples-closer/" target="_bank">https://homefaithfamily.com/55-questions-for-couples-closer/</a></p>
+            <p class="text"><a href="https://hackspirit.com/65-deep-questions-guaranteed-to-bring-you-closer-with-your-partner/" target="_bank">https://hackspirit.com/65-deep-questions-guaranteed-to-bring-you-closer-with-your-partner/</a></p>
+            
+
+            
+        </div>
+
+    </div>
+    
+    <div class="wrapper" id="game">
+
+        <i class="fas fa-info-circle instructions" onclick="instruct();"></i>
+
+        <h1>Deep <br><span>Connect</span></h1>
+        <h2 id="topic"></h2>
+
+
+
+        <div class="footer">
+            
+            <h3 id="percent" class="glow"> </h3>
+
+            <button id="play_button" class="glow" onclick="Lets_Play()">
+                NEW QUESTION
+            </button>
+            <br>
+        </div>
+
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
